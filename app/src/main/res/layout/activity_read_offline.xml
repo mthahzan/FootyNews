@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.nirhart.parallaxscroll.views.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:inner_parallax_factor="1.5"
+    app:parallax_factor="1.5"
+    app:parallax_views_num="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/read_offline_headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:text="Sample Headline"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/read_offline_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sample Story"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+        </LinearLayout>
+
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>

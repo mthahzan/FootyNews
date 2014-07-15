@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FootyNews.iml" filepath="$PROJECT_DIR$/FootyNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoogleNavigationDrawerMenuLibrary/GoogleNavigationDrawerMenuLibrary.iml" filepath="$PROJECT_DIR$/GoogleNavigationDrawerMenuLibrary/GoogleNavigationDrawerMenuLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionsContentViewLib/actionsContentViewLib.iml" filepath="$PROJECT_DIR$/actionsContentViewLib/actionsContentViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

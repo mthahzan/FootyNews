@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bg">#0099CC</color>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <integer-array name="pocket_background_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+
+    <color name="pocket_color_1">#85edb9</color>
+    <color name="pocket_color_2">#34bdb7</color>
+    <color name="pocket_color_3">#ee4458</color>
+    <color name="pocket_color_4">#fcb74d</color>
+
+    <color name="online_colour">#ff0e66bd</color>
+    <color name="offline_colour">#ffeeebe8</color>
+
+    <drawable name="online_color">#ff0e66bd</drawable>
+    <drawable name="offline_color">#ffeeebe8</drawable>
+
+</resources>

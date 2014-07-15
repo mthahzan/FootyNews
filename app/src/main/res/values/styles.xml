@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="spbStyle">@style/SmoothProgressBar</item>
+    </style>
+
+    <style name="HoloButton.Borderless" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="HeaderText" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">8dip</item>
+    </style>
+
+    <style name="PocketProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">4dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">1</item>
+        <item name="android:interpolator">@anim/pocket_interpolator</item>
+        <item name="spb_colors">@array/pocket_bar_colors</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_generate_background_with_colors">false</item>
+    </style>
+
+</resources>

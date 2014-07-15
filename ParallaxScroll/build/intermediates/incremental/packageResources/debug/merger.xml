@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\src\main\res" />
+        <source path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\res" >
+            <file
+                path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="ParallaxScroll" >
+                    <attr
+                        name="parallax_factor"
+                        format="float" />
+                    <attr
+                        name="inner_parallax_factor"
+                        format="float" />
+                    <attr
+                        name="parallax_views_num"
+                        format="integer" />
+                    <attr
+                        name="circular_parallax"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\build\generated\res\rs\debug" />
+        <source path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Thahzan\Android\workspacep\FootyNews\ParallaxScroll\src\debug\res" />
+    </dataSet>
+
+</merger>

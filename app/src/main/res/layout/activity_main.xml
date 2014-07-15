@@ -1,0 +1,38 @@
+<org.arasthel.googlenavdrawermenu.views.GoogleNavigationDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:drawer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_drawer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    drawer:drawer_gravity="start"
+    drawer:list_mainSectionsEntries="@array/navigation_main_sections"
+    drawer:list_secondarySectionsDrawables="@array/drawable_secondary_ids"
+    drawer:list_secondarySectionsEntries="@array/navigation_secondary_sections">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/main_network_indicator"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:visibility="invisible"
+            android:paddingTop="10dp"/>
+
+        <com.nirhart.parallaxscroll.views.ParallaxListView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/news_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            app:parallax_factor="1.9"
+            tools:context=".MainActivity" />
+
+        </RelativeLayout>
+
+</org.arasthel.googlenavdrawermenu.views.GoogleNavigationDrawer>

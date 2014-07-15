@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_main_sections">
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="navigation_secondary_sections">
+        <item>International</item>
+        <item>Premier League</item>
+        <item>Liga BBVA</item>
+        <item>BundesLiga</item>
+        <item>Serie A</item>
+        <item>UEFA Champions League</item>
+    </string-array>
+
+    <array name="drawable_main_ids">
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <array name="drawable_secondary_ids">
+        <item>@drawable/fifa</item>
+        <item>@drawable/prem</item>
+        <item>@drawable/laliga</item>
+        <item>@drawable/bundesliga</item>
+        <item>@drawable/seriea</item>
+        <item>@drawable/champs</item>
+    </array>
+
+    <!--<string-array name="navigation_titles">-->
+        <!--<item>Home</item>-->
+        <!--<item>Premier League</item>-->
+        <!--<item>Liga BBVA</item>-->
+        <!--<item>Bundes Liga</item>-->
+        <!--<item>Serie A</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="navigation_icons">-->
+        <!--<item>@drawable/ic_launcher</item>-->
+        <!--<item>@drawable/ic_launcher</item>-->
+        <!--<item>@drawable/ic_launcher</item>-->
+        <!--<item>@drawable/ic_launcher</item>-->
+        <!--<item>@drawable/ic_launcher</item>-->
+    <!--</string-array>-->
+
+</resources>

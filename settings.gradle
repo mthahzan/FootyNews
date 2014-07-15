@@ -1,0 +1,2 @@
+include ':app', ':ParallaxScroll', ':GoogleNavigationDrawerMenuLibrary'
+include ':actionsContentViewLib'

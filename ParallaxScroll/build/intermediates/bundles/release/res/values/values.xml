@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Thahzan/Android/workspacep/FootyNews/ParallaxScroll/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ParallaxScroll">
+        <attr name="parallax_factor" format="float" />
+        <attr name="inner_parallax_factor" format="float" />
+        <attr name="parallax_views_num" format="integer" />
+        <attr name="circular_parallax" format="boolean" />
+    </declare-styleable>
+
+</resources>
